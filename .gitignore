@@ -1,0 +1,59 @@
+#C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.exp
+*.user
+*.ilk
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.policy
+
+# Distribution / packaging
+.vs/
+Debug/
+CodeAnalysis/
+builds/
+
+
+#Python
+# Byte-compiled / optimized / DLL files
+.idea/
+
+
+# Distribution / packaging
+build/
+dist/
+docs/_build/
+
+#cmake中间文件
+CMakeFiles
+CMakeCache.txt
+Makefile
+*.cmake
+
+#调试文件
+shell.sh
+cscope.*
+tags
+gdb.sh
+LceTest
+syslogClient
