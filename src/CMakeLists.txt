@@ -108,4 +108,4 @@ ENDIF()
 LINK_DIRECTORIES(${LINK_PATH} )
 
 # 包含子项目。
-add_subdirectory ("Main")
+add_subdirectory ("main")
