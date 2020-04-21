@@ -3,7 +3,7 @@
 #
 
 #工程名定义
-project ("LCE")
+project ("LIBTEST")
 
 #CMake版本约束声明
 if(WIN32)
@@ -109,3 +109,6 @@ LINK_DIRECTORIES(${LINK_PATH} )
 
 # 包含子项目。
 add_subdirectory ("Main")
+add_subdirectory ("Common")
+add_subdirectory ("AceWrap")
+add_subdirectory ("Rpjson")
