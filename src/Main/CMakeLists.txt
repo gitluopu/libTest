@@ -6,7 +6,7 @@ set(PROJECT libTestMain)
 #扫描.当前目录下的所有源文件
 aux_source_directory(. DIR_SRCS)
 #指定生成目标，生成动态库
-add_executable (${PROJECT} main.cpp)
+add_executable (${PROJECT} Main.cpp)
 #指定导出宏定义
 IF(WIN32)
 	add_definitions(-DMAIN_EXPORTS)
