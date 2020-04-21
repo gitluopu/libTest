@@ -6,10 +6,9 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+
 #ifdef _WIN32
 	system("pause");
-#else
-	system("read");
 #endif
 	return 0;
 }
