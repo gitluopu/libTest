@@ -18,7 +18,7 @@ INCLUDE_DIRECTORIES(${LIBTEST_SRC_INCLUDES})
 
 LINK_DIRECTORIES(${LINK_PATH} )
 #设置链接动态库等参数,Debug和Release的链接名称或有不同
-target_link_libraries(${PROJECT} AceWrap Rpjson)
+target_link_libraries(${PROJECT} AceWrap Rpjson General)
 
 
 #Windows需要指定生成pdb调试文件
